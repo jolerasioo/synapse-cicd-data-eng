@@ -8,8 +8,8 @@
    - task: Synapse workspace deployment@2
      inputs:
        operation: 'deploy'
-       TemplateFile: './synapse-met-cicd-dev/TemplateForWorkspace.json'
-       ParametersFile: './synapse-met-cicd-dev/TemplateParametersForWorkspace.json'
+       TemplateFile: '$(System.DefaultWorkingDirectory)/_myARMtemplates_dev/synapse-met-cicd-dev/TemplateForWorkspace.json'
+       ParametersFile: '$(System.DefaultWorkingDirectory)/_myARMtemplates_dev/synapse-met-cicd-dev/TemplateParametersForWorkspace.json'
        azureSubscription: 'MCAPS-Hybrid-REQ-44911-2022-josealonso (cb72b49c-6479-4ec7-891f-f18be9ee10f2)'
        ResourceGroupName: 'aaaaaatest'
        TargetWorkspaceName: 'synapse-met-cicd-uat'
