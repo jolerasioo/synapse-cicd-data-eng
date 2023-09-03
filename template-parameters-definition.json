@@ -2,9 +2,8 @@
     "Microsoft.Synapse/workspaces/notebooks": {
         "properties": {
             "bigDataPool": {
-                "referenceName": {
-                    "*": "="
-                }
+                "*": "="
+            
             }
         }
     },
