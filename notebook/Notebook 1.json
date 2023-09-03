@@ -14,7 +14,7 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "2",
 				"spark.dynamicAllocation.maxExecutors": "2",
-				"spark.autotune.trackingId": "dab2df04-ff59-41be-b598-c2f1aa9992eb"
+				"spark.autotune.trackingId": "617d67d0-2f02-48b1-ada8-7b454e767b25"
 			}
 		},
 		"metadata": {
@@ -33,7 +33,7 @@
 			{
 				"cell_type": "code",
 				"source": [
-					"# test from my branch + one change on main + other changefdsasfs - params"
+					"# test from my branch + one change on main + other changefdsasfs - params2"
 				],
 				"execution_count": null
 			}
