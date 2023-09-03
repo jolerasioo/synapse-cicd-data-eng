@@ -18,7 +18,7 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "2",
 				"spark.dynamicAllocation.maxExecutors": "2",
-				"spark.autotune.trackingId": "89bc3ece-62cf-4bfc-99b7-eaec61712e08"
+				"spark.autotune.trackingId": "cbabb801-445e-4fb3-a745-8e7cdbf82ac2"
 			}
 		},
 		"metadata": {
@@ -52,7 +52,7 @@
 			{
 				"cell_type": "code",
 				"source": [
-					"# test from my branch + one change on main + other changefdssdfsasfs - params3- new sparkpool"
+					"# test from my branch + one change on main + other changes - params3- new sparkpool and url"
 				],
 				"execution_count": null
 			}
