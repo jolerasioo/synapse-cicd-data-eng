@@ -3,6 +3,10 @@
 	"properties": {
 		"nbformat": 4,
 		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "myNewSparkPool",
+			"type": "BigDataPoolReference"
+		},
 		"sessionProperties": {
 			"driverMemory": "28g",
 			"driverCores": 4,
@@ -14,7 +18,7 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "2",
 				"spark.dynamicAllocation.maxExecutors": "2",
-				"spark.autotune.trackingId": "03e2525a-4c13-479b-acb5-5d2947ed5159"
+				"spark.autotune.trackingId": "89bc3ece-62cf-4bfc-99b7-eaec61712e08"
 			}
 		},
 		"metadata": {
@@ -27,13 +31,28 @@
 			"language_info": {
 				"name": "python"
 			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/cb72b49c-6479-4ec7-891f-f18be9ee10f2/resourceGroups/aaaaaatest/providers/Microsoft.Synapse/workspaces/synapse-met-cicd-dev/bigDataPools/myNewSparkPool",
+				"name": "myNewSparkPool",
+				"type": "Spark",
+				"endpoint": "https://synapse-met-cicd-dev.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/myNewSparkPool",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net"
+				},
+				"sparkVersion": "3.3",
+				"nodeCount": 10,
+				"cores": 4,
+				"memory": 28,
+				"automaticScaleJobs": false
+			},
 			"sessionKeepAliveTimeout": 30
 		},
 		"cells": [
 			{
 				"cell_type": "code",
 				"source": [
-					"# test from my branch + one change on main + other changefdssdfsasfs - params3"
+					"# test from my branch + one change on main + other changefdssdfsasfs - params3- new sparkpool"
 				],
 				"execution_count": null
 			}
