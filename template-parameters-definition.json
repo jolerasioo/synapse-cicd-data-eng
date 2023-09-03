@@ -2,7 +2,9 @@
     "Microsoft.Synapse/workspaces/notebooks": {
         "properties": {
             "bigDataPool": {
-                "referenceName": "-:mysparkpool:string"
+                "referenceName": {
+                    "*": "="
+                }
             }
         }
     },
