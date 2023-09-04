@@ -18,7 +18,7 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "2",
 				"spark.dynamicAllocation.maxExecutors": "2",
-				"spark.autotune.trackingId": "2909ac7c-f970-4b28-86cb-a66eb4c8bcab"
+				"spark.autotune.trackingId": "d504974d-017a-4f5e-8f73-d79bac885085"
 			}
 		},
 		"metadata": {
@@ -52,7 +52,7 @@
 			{
 				"cell_type": "code",
 				"source": [
-					"# test from my branch + one change on main + other changes - params3- new sparkpool and url"
+					"# test from my branch + one change on main + other changes - params3- new sparkpool and url - martyna"
 				],
 				"execution_count": null
 			}
